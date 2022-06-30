@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Assignment</name>
+        <order>100</order>
+        <roles>x_847080_e_learnin.assignment_user,x_847080_e_learnin.student,x_847080_e_learnin.teacher</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-29 16:17:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>773855432fd41110b39218aa2799b621</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Assignment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="E-Learning system" source="x_847080_e_learnin">8c957c8f2f141110b39218aa2799b6cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="E-Learning system">8c957c8f2f141110b39218aa2799b6cf</sys_scope>
+        <sys_update_name>sys_app_application_773855432fd41110b39218aa2799b621</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-30 13:19:34</sys_updated_on>
+        <title>Assignment</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="E-Learning system">8c957c8f2f141110b39218aa2799b6cf</application>
+        <file_path/>
+        <instance_id>d22aaefddbb89c105749cac50596195d</instance_id>
+        <instance_name>dev103701</instance_name>
+        <name>sys_app_application_773855432fd41110b39218aa2799b621</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Assignment</name><order>100</order><roles>x_847080_e_learnin.assignment_user,x_847080_e_learnin.student,x_847080_e_learnin.teacher</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-29 16:17:15</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>773855432fd41110b39218aa2799b621</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Assignment</sys_name><sys_overrides/><sys_package display_value="E-Learning system" source="x_847080_e_learnin">8c957c8f2f141110b39218aa2799b6cf</sys_package><sys_policy/><sys_scope display_value="E-Learning system">8c957c8f2f141110b39218aa2799b6cf</sys_scope><sys_update_name>sys_app_application_773855432fd41110b39218aa2799b621</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-30 13:19:34</sys_updated_on><title>Assignment</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>-1478432921</payload_hash>
+        <record_name>Assignment</record_name>
+        <reverted_from/>
+        <source>cbd9acd72fd01110b39218aa2799b6bf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-30 13:19:35</sys_created_on>
+        <sys_id>4b29b5532f181110b39218aa2799b60e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181b4c456650000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-30 13:19:35</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>8329b5538d181110added2e0659b7d0e</update_guid>
+        <update_guid_history>8329b5538d181110added2e0659b7d0e:-1478432921,f338554302d41110473d56797c6ad523:-132450738</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Assignment">e030ce1b2f181110b39218aa2799b61d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-30 13:50:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>4ffafcd020b64978a0957bf7caa4a990</sys_id>
+        <sys_metadata>773855432fd41110b39218aa2799b621</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assignment</sys_name>
+        <sys_package display_value="E-Learning system" source="x_847080_e_learnin">8c957c8f2f141110b39218aa2799b6cf</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="E-Learning system">8c957c8f2f141110b39218aa2799b6cf</sys_scope>
+        <sys_scope_delete display_value="">1eac9f6ca164424c92419e8506681064</sys_scope_delete>
+        <sys_update_name>sys_app_application_773855432fd41110b39218aa2799b621</sys_update_name>
+        <sys_update_version display_value="sys_app_application_773855432fd41110b39218aa2799b621">4b29b5532f181110b39218aa2799b60e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-30 13:50:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

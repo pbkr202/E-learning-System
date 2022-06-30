@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="total_marks" label="Total marks" language="en" table="x_847080_e_learnin_student_assignemnt">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>total_marks</element>
+            <help/>
+            <hint/>
+            <label>Total marks</label>
+            <language>en</language>
+            <name>x_847080_e_learnin_student_assignemnt</name>
+            <plural>Total marks</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-29 16:06:23</sys_created_on>
+            <sys_id>28c5d58f2f941110b39218aa2799b66a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Total marks</sys_name>
+            <sys_package display_value="E-Learning system" source="x_847080_e_learnin">8c957c8f2f141110b39218aa2799b6cf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="E-Learning system">8c957c8f2f141110b39218aa2799b6cf</sys_scope>
+            <sys_update_name>sys_documentation_x_847080_e_learnin_student_assignemnt_total_marks_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-29 16:06:23</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

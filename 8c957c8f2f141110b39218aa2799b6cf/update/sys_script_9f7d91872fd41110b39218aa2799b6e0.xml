@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_847080_e_learnin_student_assignemnt</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Assigning assignments</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	try {
+        var members = getMemberSysIds(current.assigned_to.name);
+		var file=new GlideRecord("sys_attachment");
+		file.addQuery('sys_id',current.sys_id);
+		file.query();
+		var q;
+		if(file.next()){
+			q=file.table_sys_id;
+		}
+		var gdt=new GlideDateTime(current.due_date);
+		var gat=new GlideDateTime(current.assigned_date);
+        for (var i = 0; i < members.length; i++) {
+           var gr = new GlideRecord("x_847080_e_learnin_assignment");
+            gr.initialize();
+            gr.setValue('student', members[i]);
+			gr.setValue('assignement_id',current.sys_id);
+			gr.setValue('teacher',current.teacher);
+			gr.setValue('subject',current.subject);
+			gr.setValue('total_marks',current.total_marks);
+			gr.setValue('due_date',gdt);
+			gr.setValue('assigned_date',gat);
+			gr.setValue('instructions',current.instructions);
+			gr.setValue('assignment_number',parseInt(current.assignment_number));
+			gr.insert();
+        }
+    } catch (err) {
+        gs.info('hello'+err);
+    }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-29 16:42:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9f7d91872fd41110b39218aa2799b6e0</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>Assigning assignments</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="E-Learning system" source="x_847080_e_learnin">8c957c8f2f141110b39218aa2799b6cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="E-Learning system">8c957c8f2f141110b39218aa2799b6cf</sys_scope>
+        <sys_update_name>sys_script_9f7d91872fd41110b39218aa2799b6e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-30 07:12:17</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=9f7d91872fd41110b39218aa2799b6e0"/>
+</record_update>

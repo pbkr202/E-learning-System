@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="student assignment" max_length="40" name="x_847080_e_learnin_student_assignemnt" type="collection">
+        <element label="Assigned date" max_length="40" name="assigned_date" type="glide_date_time"/>
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user_group" reference_qual="roles=x_847080_e_learnin.student^EQ" reference_qual_condition="roles=x_847080_e_learnin.student^EQ" type="reference"/>
+        <element label="Assignment number" max_length="40" name="assignment_number" type="integer"/>
+        <element label="Due Date" max_length="40" name="due_date" type="glide_date_time"/>
+        <element label="Instructions" max_length="100000" name="instructions" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Subject" max_length="32" name="subject" reference="x_847080_e_learnin_subjects" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Teacher" max_length="32" name="teacher" reference="sys_user" reference_qual="roles=x_847080_e_learnin.teacher^EQ" reference_qual_condition="roles=x_847080_e_learnin.teacher^EQ" type="reference"/>
+        <element label="Total marks" max_length="20" name="total_marks" type="decimal"/>
+        <element label="Assignment questions" max_length="40" name="u_assignment_questions" type="file_attachment"/>
+        <index name="index">
+            <element name="teacher"/>
+        </index>
+        <index name="index2">
+            <element name="subject"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index4">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>

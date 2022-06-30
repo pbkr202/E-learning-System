@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="subjects" max_length="40" name="x_847080_e_learnin_subjects" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element display="true" label="subject name" max_length="40" name="subject_name" type="string"/>
+        <element label="Teacher" max_length="32" name="teacher" reference="sys_user" reference_qual="roles=x_847080_e_learnin.teacher^EQ" reference_qual_condition="roles=x_847080_e_learnin.teacher^EQ" type="reference"/>
+        <index name="index">
+            <element name="teacher"/>
+        </index>
+    </element>
+</database>

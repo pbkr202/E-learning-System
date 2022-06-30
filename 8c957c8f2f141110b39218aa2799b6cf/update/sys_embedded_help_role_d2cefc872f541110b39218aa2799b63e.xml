@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_847080_e_learnin.teacher" name="x_847080_e_learnin.teacher">140e78c32f541110b39218aa2799b6cd</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-29 14:26:00</sys_created_on>
+        <sys_id>d2cefc872f541110b39218aa2799b63e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>140e78c32f541110b39218aa2799b6cd</sys_name>
+        <sys_package display_value="E-Learning system" source="x_847080_e_learnin">8c957c8f2f141110b39218aa2799b6cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="E-Learning system">8c957c8f2f141110b39218aa2799b6cf</sys_scope>
+        <sys_update_name>sys_embedded_help_role_d2cefc872f541110b39218aa2799b63e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-29 14:26:00</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

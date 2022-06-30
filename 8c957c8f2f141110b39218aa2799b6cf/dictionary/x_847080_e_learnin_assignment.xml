@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="x_847080_e_learnin_student_assignemnt" label="Assignment" max_length="40" name="x_847080_e_learnin_assignment" type="collection">
+        <element label="Answer" max_length="100000" name="answer" type="string"/>
+        <element label="Assignement Details" max_length="32" name="assignement_id" reference="x_847080_e_learnin_student_assignemnt" type="reference"/>
+        <element label="Marks obtained" max_length="20" name="marks_obtained" type="decimal"/>
+        <element label="Remarks" max_length="100000" name="remarks" type="string"/>
+        <element label="Student" max_length="32" name="student" reference="sys_user" type="reference"/>
+        <element label="Submission Date" max_length="40" name="submission_date" type="glide_date_time"/>
+        <element choice="1" default="pending" label="Submission status" max_length="40" name="submission_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="pending" sequence="0" value="pending"/>
+                <element inactive_on_update="false" label="submitted" sequence="1" value="submitted"/>
+            </choice>
+        </element>
+        <element label="correction done" max_length="40" name="u_correction_done" type="boolean"/>
+        <element label="Solutions" max_length="40" name="u_solutions" type="file_attachment"/>
+        <index name="index">
+            <element name="student"/>
+        </index>
+        <index name="index2">
+            <element name="assignement_id"/>
+        </index>
+    </element>
+</database>

@@ -40,7 +40,7 @@
             gr.setValue('student', members[i]);
             gr.setValue('assignement_id', current.sys_id);
             gr.setValue('teacher', current.teacher);
-            gr.setValue('subject', current.subject);
+            gr.setValue('assignment_subject', current.assignment_subject);
             gr.setValue('total_marks', current.total_marks);
             gr.setValue('due_date', gdt);
             gr.setValue('assigned_date', gat);
@@ -66,7 +66,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9f7d91872fd41110b39218aa2799b6e0</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>Assigning assignments</sys_name>
         <sys_overrides/>
         <sys_package display_value="E-Learning system" source="x_847080_e_learnin">8c957c8f2f141110b39218aa2799b6cf</sys_package>
@@ -74,7 +74,7 @@
         <sys_scope display_value="E-Learning system">8c957c8f2f141110b39218aa2799b6cf</sys_scope>
         <sys_update_name>sys_script_9f7d91872fd41110b39218aa2799b6e0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-06-30 09:24:51</sys_updated_on>
+        <sys_updated_on>2022-07-01 08:26:45</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

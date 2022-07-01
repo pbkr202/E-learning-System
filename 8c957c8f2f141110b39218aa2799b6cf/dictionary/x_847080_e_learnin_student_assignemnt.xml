@@ -3,6 +3,7 @@
         <element label="Assigned date" max_length="40" name="assigned_date" type="glide_date_time"/>
         <element label="Assigned to" mandatory="true" max_length="32" name="assigned_to" reference="sys_user_group" reference_qual="roles=x_847080_e_learnin.student^EQ" reference_qual_condition="roles=x_847080_e_learnin.student^EQ" type="reference"/>
         <element label="Assignment number" max_length="40" name="assignment_number" type="integer"/>
+        <element label="Assignment subject" max_length="32" name="assignment_subject" reference="x_847080_e_learnin_subjects" type="reference"/>
         <element label="Due Date" mandatory="true" max_length="40" name="due_date" type="glide_date_time"/>
         <element label="Instructions" max_length="100000" name="instructions" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
@@ -15,12 +16,15 @@
             <element name="teacher"/>
         </index>
         <index name="index2">
-            <element name="subject"/>
+            <element name="assignment_subject"/>
         </index>
         <index name="index3">
-            <element name="sys_class_name"/>
+            <element name="subject"/>
         </index>
         <index name="index4">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index5">
             <element name="assigned_to"/>
         </index>
     </element>

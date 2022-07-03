@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="x_847080_e_learnin_student_assignemnt" label="Assignment" max_length="40" name="x_847080_e_learnin_assignment" type="collection">
+    <element extends="x_847080_e_learnin_student_assignemnt" label="Assignment" max_length="40" name="x_847080_e_learnin_assignment" sizeclass="43" type="collection">
         <element label="Answer" max_length="100000" name="answer" type="string"/>
         <element label="Assignement Details" max_length="32" name="assignement_id" reference="x_847080_e_learnin_student_assignemnt" type="reference"/>
+        <element label="Due date extension" max_length="40" name="due_date_extension" type="boolean"/>
         <element label="Marks obtained" max_length="20" name="marks_obtained" type="decimal"/>
+        <element label="No.of days" max_length="20" name="no_of_days" type="decimal"/>
+        <element label="Reason" max_length="100000" name="reason" type="string"/>
         <element label="Remarks" max_length="100000" name="remarks" type="string"/>
         <element label="Student" max_length="32" name="student" reference="sys_user" type="reference"/>
         <element label="Submission Date" max_length="40" name="submission_date" type="glide_date_time"/>

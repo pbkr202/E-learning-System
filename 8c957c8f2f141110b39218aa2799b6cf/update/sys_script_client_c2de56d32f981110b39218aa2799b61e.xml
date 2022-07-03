@@ -14,7 +14,7 @@
     if (g_user.hasRoleExactly('x_847080_e_learnin.student')) {
         g_form.setReadOnly('student', true);
         g_form.setReadOnly('teacher', true);
-		g_form.setReadOnly('assignment_subject', true);
+        g_form.setReadOnly('assignment_subject', true);
         g_form.setReadOnly('assignment_number', true);
         g_form.setReadOnly('instructions', true);
         g_form.setReadOnly('assignement_id', true);
@@ -23,26 +23,27 @@
         g_form.setReadOnly('due_date', true);
         g_form.setReadOnly('marks_obtained', true);
         g_form.setReadOnly('remarks', true);
-		if(g_form.getValue('u_correction_done')=='false'){
-			g_form.setDisplay('u_correction_done',false);
-			g_form.setDisplay('marks_obtained',false);
-			g_form.setDisplay('remarks',false);
-		}
+        if (g_form.getValue('u_correction_done') == 'false') {
+            g_form.setDisplay('u_correction_done', false);
+            g_form.setDisplay('marks_obtained', false);
+            g_form.setDisplay('remarks', false);
+        }
         g_form.setReadOnly('u_correction_done', true);
-		g_form.setReadOnly('submission_status', true);
+        g_form.setReadOnly('submission_status', true);
         g_form.setReadOnly('submission_date', true);
     }
     if (g_user.hasRoleExactly('x_847080_e_learnin.teacher')) {
         g_form.setReadOnly('student', true);
         g_form.setReadOnly('teacher', true);
         g_form.setReadOnly('assignment_number', true);
-		g_form.setReadOnly('assignment_subject', true);
+        g_form.setReadOnly('assignment_subject', true);
         g_form.setReadOnly('assignement_id', true);
         g_form.setReadOnly('total_marks', true);
         g_form.setReadOnly('assigned_date', true);
         g_form.setReadOnly('answer', true);
         g_form.setReadOnly('submission_status', true);
         g_form.setReadOnly('submission_date', true);
+        g_form.setSectionDisplay('request', false);
     }
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
@@ -51,7 +52,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c2de56d32f981110b39218aa2799b61e</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>student control</sys_name>
         <sys_overrides/>
         <sys_package display_value="E-Learning system" source="x_847080_e_learnin">8c957c8f2f141110b39218aa2799b6cf</sys_package>
@@ -59,7 +60,7 @@
         <sys_scope display_value="E-Learning system">8c957c8f2f141110b39218aa2799b6cf</sys_scope>
         <sys_update_name>sys_script_client_c2de56d32f981110b39218aa2799b61e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-01 08:43:39</sys_updated_on>
+        <sys_updated_on>2022-07-02 06:30:25</sys_updated_on>
         <table>x_847080_e_learnin_assignment</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>

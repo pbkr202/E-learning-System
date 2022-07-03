@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Student extension request" max_length="40" name="x_847080_e_learnin_student_extension_request" sizeclass="4" type="collection">
+        <element label="Approve" max_length="40" name="approve" type="boolean"/>
+        <element label="Assignment Id" max_length="32" name="assignment_id" reference="x_847080_e_learnin_assignment" type="reference"/>
+        <element label="No.of days" max_length="20" name="no_of_days" type="decimal"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Reason" max_length="100000" name="reason" type="string"/>
+        <element label="Teacher" max_length="32" name="teacher" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="assignment_id"/>
+        </index>
+        <index name="index2">
+            <element name="teacher"/>
+        </index>
+    </element>
+</database>

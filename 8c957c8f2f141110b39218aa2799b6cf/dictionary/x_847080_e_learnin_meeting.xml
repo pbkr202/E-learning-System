@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Classes" max_length="40" name="x_847080_e_learnin_meeting" sizeclass="1" type="collection">
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user_group" type="reference"/>
+        <element label="Description" max_length="100000" name="description" type="string"/>
+        <element label="end time" max_length="40" name="end_time" type="string"/>
+        <element label="Meeting Notes" max_length="40" name="meeting_notes" type="file_attachment"/>
+        <element label="Meeting passcode" max_length="10000" name="meeting_passcode" type="string"/>
+        <element label="Meeting recording" max_length="40" name="meeting_recording" type="file_attachment"/>
+        <element label="Meeting URL" max_length="1024" name="meeting_url" type="url"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element label="start time" max_length="40" name="start_time" type="string"/>
+        <element label="Subject" max_length="32" name="subject" reference="x_847080_e_learnin_subjects" type="reference"/>
+        <element label="Teacher" max_length="32" name="teacher" reference="sys_user" type="reference"/>
+        <element label="when" max_length="40" name="when" type="glide_date"/>
+        <index name="index">
+            <element name="teacher"/>
+        </index>
+        <index name="index2">
+            <element name="subject"/>
+        </index>
+        <index name="index3">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>

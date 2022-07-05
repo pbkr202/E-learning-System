@@ -35,10 +35,12 @@
 	try{
 	var submission=new GlideDateTime('current.submission_date');
 	var due=new GlideDateTime('current.due_date');
-	var diff=GlideDateTime.subtract(submission, due);
-	if(diff>0){
+	var diff=GlideDateTime.subtract(due,submission);
+	var days = diff.getRoundedDayPart();
+		gs.info(days);
+	if(days>0){
 		var m=current.marks_obtained;
-		m=m*(7-d)/7;
+		m=m*(7-days)/7;
 		current.marks_obtained=m;
 	}
 	}
@@ -53,7 +55,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>75a320582fe09110b39218aa2799b6ba</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Automatic marks deduction</sys_name>
         <sys_overrides/>
         <sys_package display_value="E-Learning system" source="x_847080_e_learnin">8c957c8f2f141110b39218aa2799b6cf</sys_package>
@@ -61,9 +63,9 @@
         <sys_scope display_value="E-Learning system">8c957c8f2f141110b39218aa2799b6cf</sys_scope>
         <sys_update_name>sys_script_75a320582fe09110b39218aa2799b6ba</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-03 10:24:06</sys_updated_on>
+        <sys_updated_on>2022-07-03 16:32:13</sys_updated_on>
         <template/>
-        <when>before</when>
+        <when>after</when>
     </sys_script>
     <sys_translated_text action="delete_multiple" query="documentkey=75a320582fe09110b39218aa2799b6ba"/>
 </record_update>

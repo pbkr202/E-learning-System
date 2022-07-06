@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Attendance" max_length="40" name="x_847080_e_learnin_attendance" type="collection">
+        <element choice="1" label="Attendance status" max_length="40" name="attendance_status" type="choice">
+            <choice/>
+        </element>
+        <element label="class duration" max_length="20" name="class_duration" type="decimal"/>
+        <element default="100" label="Duration" max_length="20" name="duration" type="decimal"/>
+        <element label="Email_id" max_length="50" name="email_id" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Session" max_length="40" name="session" type="string"/>
+        <element label="Student" max_length="32" name="student" reference="sys_user" type="reference"/>
+        <element label="subject" max_length="32" name="subject" reference="x_847080_e_learnin_subjects" type="reference"/>
+        <element label="Teacher" max_length="32" name="teacher" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="teacher"/>
+        </index>
+        <index name="index2">
+            <element name="student"/>
+        </index>
+        <index name="index3">
+            <element name="subject"/>
+        </index>
+    </element>
+</database>

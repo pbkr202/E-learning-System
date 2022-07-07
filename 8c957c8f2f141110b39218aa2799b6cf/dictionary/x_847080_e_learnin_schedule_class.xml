@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Schedule class" max_length="40" name="x_847080_e_learnin_schedule_class" type="collection">
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user_group" type="reference"/>
+        <element label="class end time" max_length="40" name="class_end_time" type="glide_date_time"/>
+        <element label="class start time" max_length="40" name="class_start_time" type="glide_date_time"/>
+        <element label="end time" max_length="40" name="end_time" type="string"/>
+        <element label="Friday" max_length="40" name="friday" type="boolean"/>
+        <element label="Monday" max_length="40" name="monday" type="boolean"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Saturday" max_length="40" name="saturday" type="boolean"/>
+        <element label="start time" max_length="40" name="start_time" type="string"/>
+        <element label="subject" max_length="32" name="subject" reference="x_847080_e_learnin_subjects" type="reference"/>
+        <element label="Teacher" max_length="32" name="teacher" reference="sys_user" type="reference"/>
+        <element label="Thursday" max_length="40" name="thursday" type="boolean"/>
+        <element label="Tuesday" max_length="40" name="tuesday" type="boolean"/>
+        <element label="wednesday" max_length="40" name="wednesday" type="boolean"/>
+        <element label="when" max_length="40" name="when" type="glide_date_time"/>
+        <index name="index">
+            <element name="teacher"/>
+        </index>
+        <index name="index2">
+            <element name="subject"/>
+        </index>
+        <index name="index3">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>

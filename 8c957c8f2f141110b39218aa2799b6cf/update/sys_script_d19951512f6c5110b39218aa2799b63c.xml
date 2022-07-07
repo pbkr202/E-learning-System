@@ -27,9 +27,28 @@
         <rest_service_text/>
         <rest_variables/>
         <role_conditions/>
-        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
 
-	// Add your code here
+    // Add your code here
+    try {
+        var members = getMemberSysIds(current.assigned_to.name);
+        for (var i = 0; i < members.length; i++) {
+            var gr = new GlideRecord("x_847080_e_learnin_attendance");
+            gr.initialize();
+            gr.setValue('student', members[i]);
+            gr.setValue('teacher', current.teacher);
+            gr.setValue('subject', current.subject);
+            gr.setValue('class_duration', current.class_duration);
+            gr.setValue('session', current.number);
+			var stu=new GlideRecord("sys_user");
+			stu.get(members[i]);
+			var mail=stu.getValue("email");
+           gr.setValue('email_id', mail);
+            gr.insert();
+        }
+    } catch (err) {
+        gs.info('hello' + err);
+    }
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -38,7 +57,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d19951512f6c5110b39218aa2799b63c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Filling Attendance</sys_name>
         <sys_overrides/>
         <sys_package display_value="E-Learning system" source="x_847080_e_learnin">8c957c8f2f141110b39218aa2799b6cf</sys_package>
@@ -46,7 +65,7 @@
         <sys_scope display_value="E-Learning system">8c957c8f2f141110b39218aa2799b6cf</sys_scope>
         <sys_update_name>sys_script_d19951512f6c5110b39218aa2799b63c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-06 16:28:07</sys_updated_on>
+        <sys_updated_on>2022-07-06 17:17:12</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

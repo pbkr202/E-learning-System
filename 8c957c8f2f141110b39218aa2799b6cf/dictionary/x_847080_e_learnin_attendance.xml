@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Attendance" max_length="40" name="x_847080_e_learnin_attendance" type="collection">
-        <element choice="1" label="Attendance status" max_length="40" name="attendance_status" type="choice">
-            <choice/>
+    <element label="Attendance" max_length="40" name="x_847080_e_learnin_attendance" sizeclass="43" type="collection">
+        <element choice="3" default="absent" label="Attendance status" max_length="40" name="attendance_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="present" sequence="0" value="present"/>
+                <element inactive_on_update="false" label="absent" sequence="1" value="absent"/>
+            </choice>
         </element>
+        <element label="Class date" max_length="40" name="class_date" type="glide_date"/>
         <element label="class duration" max_length="20" name="class_duration" type="decimal"/>
-        <element default="100" label="Duration" max_length="20" name="duration" type="decimal"/>
+        <element default="0" label="Duration" max_length="20" name="duration" type="decimal"/>
         <element label="Email_id" max_length="50" name="email_id" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Session" max_length="40" name="session" type="string"/>

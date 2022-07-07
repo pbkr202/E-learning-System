@@ -24,17 +24,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ff2ac0d92f285110b39218aa2799b691</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Schedule a class</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Schedule extra class</sys_name>
         <sys_overrides/>
         <sys_package display_value="E-Learning system" source="x_847080_e_learnin">8c957c8f2f141110b39218aa2799b6cf</sys_package>
         <sys_policy/>
         <sys_scope display_value="E-Learning system">8c957c8f2f141110b39218aa2799b6cf</sys_scope>
         <sys_update_name>sys_app_module_ff2ac0d92f285110b39218aa2799b691</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-06 10:27:15</sys_updated_on>
+        <sys_updated_on>2022-07-07 16:27:01</sys_updated_on>
         <timeline_page/>
-        <title>Schedule a class</title>
+        <title>Schedule extra class</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

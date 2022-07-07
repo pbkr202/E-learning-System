@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Holidays list" max_length="40" name="x_847080_e_learnin_holidays_list" type="collection">
+        <element label="Date" max_length="40" name="date" type="glide_date"/>
+        <element label="Occasion" max_length="40" name="occasion" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_847080_e_learnin_sample</description>
+        <name>x_847080_e_learnin_sample</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-09 17:14:32</sys_created_on>
+        <sys_id>20450dd62f245510b39218aa2799b61a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_847080_e_learnin_sample</sys_name>
+        <sys_package display_value="E-Learning system" source="x_847080_e_learnin">8c957c8f2f141110b39218aa2799b6cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="E-Learning system">8c957c8f2f141110b39218aa2799b6cf</sys_scope>
+        <sys_update_name>sys_security_acl_20450dd62f245510b39218aa2799b61a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-09 17:14:32</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="E-Learning system">8c957c8f2f141110b39218aa2799b6cf</application>
+        <file_path/>
+        <instance_id>d22aaefddbb89c105749cac50596195d</instance_id>
+        <instance_name>dev103701</instance_name>
+        <name>sys_security_acl_20450dd62f245510b39218aa2799b61a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_847080_e_learnin_sample</description><name>x_847080_e_learnin_sample</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-09 17:14:32</sys_created_on><sys_id>20450dd62f245510b39218aa2799b61a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_847080_e_learnin_sample</sys_name><sys_package display_value="E-Learning system" source="x_847080_e_learnin">8c957c8f2f141110b39218aa2799b6cf</sys_package><sys_policy/><sys_scope display_value="E-Learning system">8c957c8f2f141110b39218aa2799b6cf</sys_scope><sys_update_name>sys_security_acl_20450dd62f245510b39218aa2799b61a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-09 17:14:32</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>343070696</payload_hash>
+        <record_name>x_847080_e_learnin_sample</record_name>
+        <reverted_from/>
+        <source>cbd9acd72fd01110b39218aa2799b6bf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-09 17:14:32</sys_created_on>
+        <sys_id>60450dd62f245510b39218aa2799b61c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181e3f4b0460000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-09 17:14:32</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>a8450dd6b62455109eae782ee8c5e51b</update_guid>
+        <update_guid_history>a8450dd6b62455109eae782ee8c5e51b:343070696</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-09 17:24:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>540e0eb603254894a2e8f963fe2e9924</sys_id>
+        <sys_metadata>20450dd62f245510b39218aa2799b61a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_847080_e_learnin_sample</sys_name>
+        <sys_package display_value="E-Learning system" source="x_847080_e_learnin">8c957c8f2f141110b39218aa2799b6cf</sys_package>
+        <sys_parent display_value="">e4450dd62f245510b39218aa2799b630</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="E-Learning system">8c957c8f2f141110b39218aa2799b6cf</sys_scope>
+        <sys_scope_delete display_value="">1eac9f6ca164424c92419e8506681064</sys_scope_delete>
+        <sys_update_name>sys_security_acl_20450dd62f245510b39218aa2799b61a</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_20450dd62f245510b39218aa2799b61a">60450dd62f245510b39218aa2799b61c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-09 17:24:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

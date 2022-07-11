@@ -1,100 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="a82eaa2d2fec9110b39218aa2799b63b" sys_domain="global" table="x_847080_e_learnin_schedule_class" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>subject</element>
+            <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-07 16:59:47</sys_created_on>
-            <sys_id>3cbe2a6d2fec9110b39218aa2799b642</sys_id>
+            <sys_created_on>2022-07-08 05:31:46</sys_created_on>
+            <sys_id>d0daddf12f68d110b39218aa2799b67e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_847080_e_learnin_schedule_class" sys_domain="global" view="Default view">a82eaa2d2fec9110b39218aa2799b63b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-07 16:59:47</sys_updated_on>
+            <sys_updated_on>2022-07-08 05:31:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-08 05:31:46</sys_created_on>
+            <sys_id>54daddf12f68d110b39218aa2799b67e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_847080_e_learnin_schedule_class" sys_domain="global" view="Default view">a82eaa2d2fec9110b39218aa2799b63b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-08 05:31:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>subject</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-08 05:31:46</sys_created_on>
+            <sys_id>d4daddf12f68d110b39218aa2799b67e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_847080_e_learnin_schedule_class" sys_domain="global" view="Default view">a82eaa2d2fec9110b39218aa2799b63b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-08 05:31:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>teacher</element>
-            <position>1</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-07 16:59:47</sys_created_on>
-            <sys_id>bcbe2a6d2fec9110b39218aa2799b642</sys_id>
+            <sys_created_on>2022-07-08 05:31:46</sys_created_on>
+            <sys_id>58daddf12f68d110b39218aa2799b67e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_847080_e_learnin_schedule_class" sys_domain="global" view="Default view">a82eaa2d2fec9110b39218aa2799b63b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-07 16:59:47</sys_updated_on>
+            <sys_updated_on>2022-07-08 05:31:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assigned_to</element>
-            <position>2</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-07 16:59:47</sys_created_on>
-            <sys_id>30be2a6d2fec9110b39218aa2799b643</sys_id>
+            <sys_created_on>2022-07-08 05:31:46</sys_created_on>
+            <sys_id>d8daddf12f68d110b39218aa2799b67e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_847080_e_learnin_schedule_class" sys_domain="global" view="Default view">a82eaa2d2fec9110b39218aa2799b63b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-07 16:59:47</sys_updated_on>
+            <sys_updated_on>2022-07-08 05:31:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-07 16:59:47</sys_created_on>
-            <sys_id>b0be2a6d2fec9110b39218aa2799b643</sys_id>
+            <sys_created_on>2022-07-08 05:31:46</sys_created_on>
+            <sys_id>5cdaddf12f68d110b39218aa2799b67e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_847080_e_learnin_schedule_class" sys_domain="global" view="Default view">a82eaa2d2fec9110b39218aa2799b63b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-07 16:59:47</sys_updated_on>
+            <sys_updated_on>2022-07-08 05:31:46</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>start_time</element>
-            <position>4</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-07 16:59:47</sys_created_on>
-            <sys_id>34be2a6d2fec9110b39218aa2799b643</sys_id>
+            <sys_created_on>2022-07-08 05:31:46</sys_created_on>
+            <sys_id>dcdaddf12f68d110b39218aa2799b67e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_847080_e_learnin_schedule_class" sys_domain="global" view="Default view">a82eaa2d2fec9110b39218aa2799b63b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-07 16:59:47</sys_updated_on>
+            <sys_updated_on>2022-07-08 05:31:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>end_time</element>
-            <position>5</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-07 16:59:47</sys_created_on>
-            <sys_id>b4be2a6d2fec9110b39218aa2799b643</sys_id>
+            <sys_created_on>2022-07-08 05:31:46</sys_created_on>
+            <sys_id>50daddf12f68d110b39218aa2799b67f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_847080_e_learnin_schedule_class" sys_domain="global" view="Default view">a82eaa2d2fec9110b39218aa2799b63b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-07 16:59:47</sys_updated_on>
+            <sys_updated_on>2022-07-08 05:31:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>number</element>
-            <position>6</position>
+            <element>class_duration</element>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-07 17:01:21</sys_created_on>
-            <sys_id>e70f6e6d2fec9110b39218aa2799b6d3</sys_id>
+            <sys_created_on>2022-07-09 05:05:24</sys_created_on>
+            <sys_id>a75e52822fe81510b39218aa2799b65e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_847080_e_learnin_schedule_class" sys_domain="global" view="Default view">a82eaa2d2fec9110b39218aa2799b63b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-07 17:01:21</sys_updated_on>
+            <sys_updated_on>2022-07-09 05:05:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

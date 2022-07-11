@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_847080_e_learnin_student_assignment1" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="student assignment1 - Default view" name="x_847080_e_learnin_student_assignment1" related_list="NULL" sys_domain="global" view="Default view">a5618ebe2fe0d510b39218aa2799b6bc</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_847080_e_learnin_assignment1.assignment_id</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-11 10:54:16</sys_created_on>
+            <sys_id>e161cab62f24d510b39218aa2799b6b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-11 10:54:16</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>student assignment1 - Default view</calculated_name>
+            <filter/>
+            <name>x_847080_e_learnin_student_assignment1</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-11 10:54:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a5618ebe2fe0d510b39218aa2799b6bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>student assignment1 - Default view</sys_name>
+            <sys_package display_value="E-Learning system" source="x_847080_e_learnin">8c957c8f2f141110b39218aa2799b6cf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="E-Learning system">8c957c8f2f141110b39218aa2799b6cf</sys_scope>
+            <sys_update_name>sys_ui_related_x_847080_e_learnin_student_assignment1_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-11 10:54:16</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

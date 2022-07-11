@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Classes" max_length="40" name="x_847080_e_learnin_meeting" sizeclass="6" type="collection">
+    <element label="Classes" max_length="40" name="x_847080_e_learnin_meeting" sizeclass="40" type="collection">
         <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user_group" reference_qual="roles=x_847080_e_learnin.student^EQ" reference_qual_condition="roles=x_847080_e_learnin.student^EQ" type="reference"/>
         <element label="Class Date" max_length="40" name="class_date" type="glide_date"/>
         <element label="Class duration" max_length="20" name="class_duration" type="decimal"/>
-        <element label="class end time" max_length="40" name="class_end_time" type="glide_date_time"/>
-        <element label="class start time" max_length="40" name="class_start_time" type="glide_date_time"/>
+        <element label="class end time" max_length="40" name="class_end_time" type="glide_time"/>
+        <element label="class start time" max_length="40" name="class_start_time" type="glide_time"/>
         <element label="Description" max_length="100000" name="description" type="string"/>
         <element label="end time" max_length="40" name="end_time" type="string"/>
+        <element default="15" label="max limit" max_length="20" name="max_limit" type="decimal"/>
         <element label="Meeting Notes" max_length="40" name="meeting_notes" type="file_attachment"/>
         <element label="Meeting passcode" max_length="10000" name="meeting_passcode" type="string"/>
         <element label="Meeting recording" max_length="40" name="meeting_recording" type="file_attachment"/>

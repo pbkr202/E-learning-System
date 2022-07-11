@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Assignment1" max_length="40" name="x_847080_e_learnin_assignment1" sizeclass="43" type="collection">
+        <element label="Answer" max_length="10000" name="answer" type="string"/>
+        <element label="Assigned class" max_length="32" name="assigned_class" reference="sys_user_group" type="reference"/>
+        <element label="Assigned Date" max_length="40" name="assigned_date" type="glide_date_time"/>
+        <element label="Assignment ID" max_length="32" name="assignment_id" reference="x_847080_e_learnin_student_assignment1" type="reference"/>
+        <element label="Assignment number" max_length="40" name="assignment_number" type="integer"/>
+        <element label="Assignment questions" max_length="40" name="assignment_questions" type="file_attachment"/>
+        <element label="Assignment subject" max_length="32" name="assignment_subject" reference="x_847080_e_learnin_subjects" type="reference"/>
+        <element label="correction done" max_length="40" name="correction_done" type="boolean"/>
+        <element label="Due date extension" max_length="40" name="due_date_extension" type="boolean"/>
+        <element label="Email Status" max_length="40" name="email_status" type="boolean"/>
+        <element label="Instructions" max_length="10000" name="instructions" type="string"/>
+        <element label="Marks obtained" max_length="20" name="marks_obtained" type="decimal"/>
+        <element label="No.of.days" max_length="20" name="no_of_days" type="decimal"/>
+        <element label="Reason" max_length="10000" name="reason" type="string"/>
+        <element label="Remarks" max_length="10000" name="remarks" type="string"/>
+        <element label="Solutions" max_length="40" name="solutions" type="file_attachment"/>
+        <element label="Student" max_length="32" name="student" reference="sys_user" type="reference"/>
+        <element label="Submission date" max_length="40" name="submission_date" type="glide_date_time"/>
+        <element choice="3" default="pending" label="submission status" max_length="40" name="submission_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="pending" sequence="0" value="pending"/>
+                <element inactive_on_update="false" label="submitted" sequence="1" value="submitted"/>
+            </choice>
+        </element>
+        <element label="Teacher" max_length="32" name="teacher" reference="sys_user" type="reference"/>
+        <element label="Total Marks" max_length="20" name="total_marks" type="decimal"/>
+    </element>
+</database>

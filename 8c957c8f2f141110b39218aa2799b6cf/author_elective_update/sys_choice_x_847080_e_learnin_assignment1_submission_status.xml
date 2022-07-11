@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="submission_status" table="x_847080_e_learnin_assignment1" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>submission_status</element>
+            <name>x_847080_e_learnin_assignment1</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-11 06:38:28</sys_created_on>
+            <sys_id>6ad685be2f20d510b39218aa2799b61f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>submission_status</sys_name>
+            <sys_package display_value="E-Learning system" source="x_847080_e_learnin">8c957c8f2f141110b39218aa2799b6cf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="E-Learning system">8c957c8f2f141110b39218aa2799b6cf</sys_scope>
+            <sys_update_name>sys_choice_x_847080_e_learnin_assignment1_submission_status</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-11 06:38:28</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>submission_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>pending</label>
+            <language>en</language>
+            <name>x_847080_e_learnin_assignment1</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-11 06:38:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>26d685be2f20d510b39218aa2799b61f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-11 06:38:28</sys_updated_on>
+            <value>pending</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>submission_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>submitted</label>
+            <language>en</language>
+            <name>x_847080_e_learnin_assignment1</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-11 06:38:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6ed685be2f20d510b39218aa2799b62e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-11 06:38:28</sys_updated_on>
+            <value>submitted</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

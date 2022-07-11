@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Doubts" max_length="40" name="x_847080_e_learnin_doubts" sizeclass="11" type="collection">
+        <element attributes="encode_utf8=false" label="class" max_length="32" name="class" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Problem Description" max_length="1000" name="problem_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Sample" max_length="1000" name="sample" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Solution" max_length="1000" name="solution" type="string"/>
+        <element attributes="encode_utf8=false" label="student" max_length="32" name="student" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Subject" max_length="32" name="subject" reference="x_847080_e_learnin_subjects" type="reference"/>
+        <element label="Resolved" max_length="40" name="u_boolean_5" type="boolean"/>
+        <element label="Discuss" max_length="4000" name="your_answer" type="journal_input"/>
+    </element>
+</database>

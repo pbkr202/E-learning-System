@@ -14,7 +14,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>start time</column_label>
+        <column_label>class start time</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -32,7 +32,7 @@
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="">glide_time</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_847080_e_learnin_schedule_class</name>
@@ -54,14 +54,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-07 16:53:24</sys_created_on>
         <sys_id>48ca26692fec9110b39218aa2799b60f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>start time</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>class start time</sys_name>
         <sys_package display_value="E-Learning system" source="x_847080_e_learnin">8c957c8f2f141110b39218aa2799b6cf</sys_package>
         <sys_policy/>
         <sys_scope display_value="E-Learning system">8c957c8f2f141110b39218aa2799b6cf</sys_scope>
         <sys_update_name>sys_dictionary_x_847080_e_learnin_schedule_class_start_time</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-07 16:53:24</sys_updated_on>
+        <sys_updated_on>2022-07-08 05:30:56</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

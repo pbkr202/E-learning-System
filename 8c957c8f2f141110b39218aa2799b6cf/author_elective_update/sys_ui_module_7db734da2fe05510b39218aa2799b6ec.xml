@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="sample">f1b734da2fe05510b39218aa2799b6ea</application>
+        <filter/>
+        <name>samples</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_847080_e_learnin.sample_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-09 16:15:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7db734da2fe05510b39218aa2799b6ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>samples</sys_name>
+        <sys_package display_value="E-Learning system" source="x_847080_e_learnin">8c957c8f2f141110b39218aa2799b6cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="E-Learning system">8c957c8f2f141110b39218aa2799b6cf</sys_scope>
+        <sys_update_name>sys_ui_module_7db734da2fe05510b39218aa2799b6ec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-09 16:15:22</sys_updated_on>
+        <table>x_847080_e_learnin_sample</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="E-Learning system">8c957c8f2f141110b39218aa2799b6cf</application>
+        <file_path/>
+        <instance_id>d22aaefddbb89c105749cac50596195d</instance_id>
+        <instance_name>dev103701</instance_name>
+        <name>sys_ui_module_7db734da2fe05510b39218aa2799b6ec</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="sample">f1b734da2fe05510b39218aa2799b6ea</application><filter/><name>samples</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_847080_e_learnin.sample_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-09 16:15:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7db734da2fe05510b39218aa2799b6ec</sys_id><sys_mod_count>0</sys_mod_count><sys_name>samples</sys_name><sys_package display_value="E-Learning system" source="x_847080_e_learnin">8c957c8f2f141110b39218aa2799b6cf</sys_package><sys_policy/><sys_scope display_value="E-Learning system">8c957c8f2f141110b39218aa2799b6cf</sys_scope><sys_update_name>sys_ui_module_7db734da2fe05510b39218aa2799b6ec</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-09 16:15:22</sys_updated_on><table>x_847080_e_learnin_sample</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>778767975</payload_hash>
+        <record_name>samples</record_name>
+        <reverted_from/>
+        <source>cbd9acd72fd01110b39218aa2799b6bf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-09 16:15:22</sys_created_on>
+        <sys_id>75b734da2fe05510b39218aa2799b6ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181e3be850b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-09 16:15:22</sys_updated_on>
+        <type>Module</type>
+        <update_guid>bdb734da40e05510261757eed72708ee</update_guid>
+        <update_guid_history>bdb734da40e05510261757eed72708ee:778767975</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-09 17:12:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>ccf83b6deec640ca8cf3610f462c4349</sys_id>
+        <sys_metadata>7db734da2fe05510b39218aa2799b6ec</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>samples</sys_name>
+        <sys_package display_value="E-Learning system" source="x_847080_e_learnin">8c957c8f2f141110b39218aa2799b6cf</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="E-Learning system">8c957c8f2f141110b39218aa2799b6cf</sys_scope>
+        <sys_scope_delete display_value="">1eac9f6ca164424c92419e8506681064</sys_scope_delete>
+        <sys_update_name>sys_ui_module_7db734da2fe05510b39218aa2799b6ec</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_7db734da2fe05510b39218aa2799b6ec">75b734da2fe05510b39218aa2799b6ef</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-09 17:12:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

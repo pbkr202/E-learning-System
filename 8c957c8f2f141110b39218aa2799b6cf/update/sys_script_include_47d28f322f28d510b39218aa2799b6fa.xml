@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_847080_e_learnin.ZoomIntegration</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>ZoomIntegration</name>
+        <script><![CDATA[var ZoomIntegration = Class.create();
+ZoomIntegration.prototype = {
+    initialize: function() {},
+    createMeeting: function(properties) {
+        try{
+		var request_payload = properties;
+        var r = new sn_ws.RESTMessageV2('Zoom', 'POST');
+        r.setRequestBody(JSON.stringify(request_payload));
+        var res = r.execute();
+        var response_body = res.getBody().toString();
+        var response_object = JSON.parse(response_body);
+        var httpStatus = res.getStatusCode();
+        if (httpStatus == 400) {
+            gs.info('failed ');
+        } else {
+            gs.info(response.join_url);
+        }
+		}
+		catch(err){
+			gs.info('zi '+err);
+		}
+    },
+    type: 'ZoomIntegration'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-11 15:49:57</sys_created_on>
+        <sys_id>47d28f322f28d510b39218aa2799b6fa</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>ZoomIntegration</sys_name>
+        <sys_package display_value="E-Learning system" source="x_847080_e_learnin">8c957c8f2f141110b39218aa2799b6cf</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="E-Learning system">8c957c8f2f141110b39218aa2799b6cf</sys_scope>
+        <sys_update_name>sys_script_include_47d28f322f28d510b39218aa2799b6fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-11 15:54:04</sys_updated_on>
+    </sys_script_include>
+</record_update>

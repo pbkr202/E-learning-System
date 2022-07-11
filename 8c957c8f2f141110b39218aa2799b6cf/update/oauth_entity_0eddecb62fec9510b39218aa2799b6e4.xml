@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+    <oauth_entity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_code_lifespan>0</auth_code_lifespan>
+        <auth_url>https://zoom.us/oauth/authorize</auth_url>
+        <certificate_url/>
+        <client_id>Imxo38aUTLSZ31hJa9crTA</client_id>
+        <client_secret>﷞﷟﷒f3b2f44f2f141110b39218aa2799b66e﷬﷔1﷬﷭24_DN3GIHTRydvqVEQkaug==HaiWtgejL886VDnPKkKfysMvV1G3oK8Mh75ZtdJm0ec6SC2WASH8SyAG41J3BVnB﷮﷯</client_secret>
+        <client_uuid>8addecb62fec9510b39218aa2799b6e4</client_uuid>
+        <code_challenge_method>S256</code_challenge_method>
+        <comments/>
+        <default_grant_type>password</default_grant_type>
+        <id_token_lifespan>0</id_token_lifespan>
+        <logo_url/>
+        <message_signature_lifespan>0</message_signature_lifespan>
+        <name>Zoom Meetings</name>
+        <oauth_api_script/>
+        <protocol_name/>
+        <public_client>false</public_client>
+        <redirect_url>https://dev103701.service-now.com/oauth_redirect.do</redirect_url>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <refresh_token_url/>
+        <restricted_binding>false</restricted_binding>
+        <revoke_token_url/>
+        <salt>0</salt>
+        <send_client_credentials_as>request_body_parameter</send_client_credentials_as>
+        <skip_authorize>false</skip_authorize>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-11 04:53:16</sys_created_on>
+        <sys_id>0eddecb62fec9510b39218aa2799b6e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Zoom Meetings</sys_name>
+        <sys_package display_value="E-Learning system" source="x_847080_e_learnin">8c957c8f2f141110b39218aa2799b6cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="E-Learning system">8c957c8f2f141110b39218aa2799b6cf</sys_scope>
+        <sys_update_name>oauth_entity_0eddecb62fec9510b39218aa2799b6e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-11 04:53:16</sys_updated_on>
+        <token_url>https://zoom.us/oauth/token</token_url>
+        <type>oauth_provider</type>
+        <use_mutual_auth>false</use_mutual_auth>
+        <user/>
+    </oauth_entity>
+</record_update>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>sample</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>sample</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">55464cb521120110a866589604c20d56</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-09 16:15:23</sys_created_on>
+        <sys_id>86b774da2fe05510b39218aa2799b626</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sample</sys_name>
+        <sys_package display_value="E-Learning system" source="x_847080_e_learnin">8c957c8f2f141110b39218aa2799b6cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="E-Learning system">8c957c8f2f141110b39218aa2799b6cf</sys_scope>
+        <sys_update_name>sys_wizard_answer_86b774da2fe05510b39218aa2799b626</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-09 16:15:23</sys_updated_on>
+        <table/>
+        <target_url>x_847080_e_learnin_sample.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="E-Learning system">8c957c8f2f141110b39218aa2799b6cf</application>
+        <file_path/>
+        <instance_id>d22aaefddbb89c105749cac50596195d</instance_id>
+        <instance_name>dev103701</instance_name>
+        <name>sys_wizard_answer_86b774da2fe05510b39218aa2799b626</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>sample</answer><button_label/><dependent_value/><element/><name>sample</name><next_question/><order>100</order><payload_name/><question display_value="Task" name="Task">55464cb521120110a866589604c20d56</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-09 16:15:23</sys_created_on><sys_id>86b774da2fe05510b39218aa2799b626</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sample</sys_name><sys_package display_value="E-Learning system" source="x_847080_e_learnin">8c957c8f2f141110b39218aa2799b6cf</sys_package><sys_policy/><sys_scope display_value="E-Learning system">8c957c8f2f141110b39218aa2799b6cf</sys_scope><sys_update_name>sys_wizard_answer_86b774da2fe05510b39218aa2799b626</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-09 16:15:23</sys_updated_on><table/><target_url>x_847080_e_learnin_sample.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>-143183803</payload_hash>
+        <record_name>sample</record_name>
+        <reverted_from/>
+        <source>1956d0c32f101110b39218aa2799b6f2</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-06-29 11:29:16</sys_created_on>
+        <sys_id>5ec405d62f245510b39218aa2799b674</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>181af38fae00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Answer</type>
+        <update_guid>1ec405d6342455101b3476a395e1d074</update_guid>
+        <update_guid_history>1ec405d6342455101b3476a395e1d074:-143183803</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-09 17:12:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>85aa04f339f543d381d2b2a9e7adcbe9</sys_id>
+        <sys_metadata>86b774da2fe05510b39218aa2799b626</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sample</sys_name>
+        <sys_package display_value="E-Learning system" source="x_847080_e_learnin">8c957c8f2f141110b39218aa2799b6cf</sys_package>
+        <sys_parent display_value="Task">55464cb521120110a866589604c20d56</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="E-Learning system">8c957c8f2f141110b39218aa2799b6cf</sys_scope>
+        <sys_scope_delete display_value="">1eac9f6ca164424c92419e8506681064</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_86b774da2fe05510b39218aa2799b626</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_86b774da2fe05510b39218aa2799b626">5ec405d62f245510b39218aa2799b674</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-09 17:12:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
